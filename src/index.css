@@ -44,6 +44,10 @@ code {
 ul {
   list-style-type: none;
 }
+li {
+  list-style: none;
+  padding: 20px;
+}
 a {
   text-decoration: none;
 }
@@ -66,6 +70,7 @@ h3 {
 }
 h4 {
   font-size: 0.875rem;
+  color: white;
 }
 p {
   color: var(--clr-grey-5);
@@ -116,6 +121,11 @@ p {
 }
 
 /* Project CSS */
+.title {
+  margin: 15px 0;
+  color: white;
+}
+
 section {
   width: 95%;
   margin: auto;
